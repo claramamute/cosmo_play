@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <title>CosmosPlay</title>
+    <link rel="shortcut icon" href="../aluraplay-projeto-base/img/cabecalho/video-solid.svg" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Cabecalho -->
+    <header>
+
+        <nav class="cabecalho__container">
+
+            <h1 class="logo__item" href="#"></h1>
+
+            <div class="cabecalho__pesquisar__item">
+                <form action="">
+                    <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input">
+                    <label for="pesquisar" class="pesquisar__label"></label>
+                </form>
+                <a href="#" class="cabecalho__audio"></a>
+            </div>
+
+            <div class="cabecalho__icones__item">
+                <a href="#" class="cabecalho__videos"></a>
+                <a href="#" class="cabecalho__apps"></a>
+                <a href="#" class="cabecalho__notificacoes"></a>
+                <a href="#" class="cabecalho__avatar"></a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Menu lateral -->
+
+    <aside class="menu__container">
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__inicio icone-item"></i>
+                    <span>Início</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__explorar icone-item"></i>
+                    <span>Explorar</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__shorts icone-item"></i>
+                    <span>Shorts</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__inscricoes icone-item"></i>
+                    <span>Inscrições</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__biblioteca icone-item"></i>
+                    <span>Biblioteca</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__historico icone-item"></i>
+                    <span>Histórico</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__relogio icone-item"></i>
+                    <span>Assistir mais tarde</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__like icone-item"></i>
+                    <span>Marcados com like</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__mostrar icone-item"></i>
+                    <span>Mostrar mais 2</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__dados icone-item"></i>
+                    <span>Dados interestelares</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__nerd icone-item"></i>
+                    <span>Lilly Nerd</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__theory icone-item"></i>
+                    <span>The theory</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__g icone-item"></i>
+                    <span>G sessão</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__educar icone-item"></i>
+                    <span>Educar sci-fi</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__bianca icone-item"></i>
+                    <span>Bianca Science</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__cosmos icone-item"></i>
+                    <span>Cosmos</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens inscricoes" href="#">INSCRIÇÕES</a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li class="jogos">
+                <a class="menu__itens" href="#">
+                    <i class="icone__jogos icone-item"></i>
+                    <span>Jogos</span></a>
+            </li>
+
+            <li class="filmes">
+                <a class="menu__itens" href="#">
+                    <i class="icone__filmes icone-item"></i>
+                    <span>Filmes</span></a>
+            </li>
+            <li class="premium">
+                <a class="menu__itens" href="#">
+                    <i class="icone__videos icone-item"></i>
+                    <span>Vídeo Premium</span></a>
+            </li>
+
+            <li class="menu__itens maispagina">
+                <a href="#">MAIS DA PÁGINA</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Seção superior -->
+
+    <section class="superior__secao__container">
+        <a class="superior__item" href="#">Tudo</a>
+        <a class="superior__item" href="#">Teorias</a>
+        <a class="superior__item" href="#">Ao Vivo</a>
+        <a class="superior__item" href="#">Podcasts</a>
+        <a class="superior__item" href="#">Explorando Cosmos</a>
+        <a class="superior__item" href="#">Ciência para Iniciantes</a>
+        <a class="superior__item" href="#">Curiosidades</a>
+        <a class="superior__item" href="#">Documentários</a>
+        <a class="superior__item" href="#">Eventos astronômicos</a>
+      
+    </section>
+
+    <!-- Vídeos -->
+
+    <ul class="videos__container">
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/Z4uIBLHs3_E?si=xo3fOWHvg3e7TkzX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal Alura Cursos Online">
+                <h3>O Gato de Schrödinger Explicado</h3>
+                <p>668 mil visualizações - há 9 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/1B6n8EQvSZM?si=NxDrcWUT0yugSdr2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal Alura Cursos Online">
+                <h3>O Experimento MAIS BIZARRO da FÍSICA</h3>
+                <p>773.743 visualizações - Há 1 mês</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/2ZdCJ9tONL4?si=u9kuVVDtmr9y4e-2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal Alura Cursos Online">
+                <h3>A Ilusão do Tempo</h3>
+                <p>1,8 mil visualizações - Há 8 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/98OvQpOkOIU?si=rpuotJtwEH-FKsBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal Alura Cursos Online">
+                <h3>Paradoxo dos Gêmeos</h3>
+                <p>1,7 mil visualizações - Há 4 anos</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/8gwJB19qdJA?si=TUXjXJhqy7aXhZ7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal Alura Cursos Online">
+                <h3>Nós Estamos Vivendo Em Uma Simulação?</h3>
+                <p>1,6 mil visualizações - Há 2 anos</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/pYP7OGTdYY8?si=6S-X-uFU7HPm4ram" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal Alura Cursos Online">
+                <h3>Nikola Tesla - O INVENTOR MAIS INJUSTIÇADO DA HISTÓRIA</h3>
+                <p>22 mil visualizações - Há 2 anos</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/6fsuiVHtEfc?si=ZKH4KeEF53U416hf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal Alura Cursos Online">
+                <h3>REAÇÃO em CADEIA: a HISTÓRIA da BOMBA ATÔMICA</h3>
+                <p>1,3 mi de visualizações  há 7 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/uAs_QMIzGMY?si=u2lCg0F1sEPHASEK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal Alura Cursos Online">
+                <h3>STEPHEN HAWKING: A BATALHA CONTRA O TEMPO - DOC Nostalgia</h3>
+                <p>
+                    11 mi de visualizações  há 3 anos</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/9mlDPjo6ymA?si=aJJVrI2FQoeuCbHO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal Alura Cursos Online">
+                <h3>DETALHES que você PERDEU em INTERESTELAR + FINAL EXPLICADO</h3>
+                <p>
+                    7,2 mi de visualizações  há 2 anos</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/6TQOPAsSMzc?si=UKR4b9dsxY4_ZjiW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal Alura Cursos Online">
+                <h3>A MAIOR AMEAÇA À VIDA NA TERRA JÁ VISTA!</h3>
+                <p>
+                    1,7 mi de visualizações  há 3 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/A8QXsi2NRnM?si=r51epLy0IMLASrA6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal Alura Cursos Online">
+                <h3>PEDRO LOOS - Ciência Sem Fim #210</h3>
+                <p>
+                    1 mi de visualizações  Transmitido há 3 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/HBVCsBtsmzA" title="baNaNa | Memes do JavaScript - Episódio 2"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal ">
+                <h3>baNaNa | Memes do JavaScript #2</h3>
+                <p>1,2 mil visualizações - Há 5 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/7W3Dg7w7JFU?si=9sbqE8iyV4DZvG4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal">
+                <h3>Nós estamos DENTRO de um BURACO NEGRO?</h3>
+                <p>
+                    251 mil visualizações  há 1 dia</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/mREqChj1q_A?si=BkuqBAk1FZ0l962b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal ">
+                <h3>Mistério do Sinal Wow</h3>
+                <p>1,6 mil visualizações - Há 8 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/HHWCh9pmyio?si=qXdzivzkxU46Rsm7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal ">
+                <h3>A Hipótese da Floresta Negra</h3>
+                <p>1,2 mil visualizações - Há 1 mês</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/GgZCN4VJQ-M?si=Hz2EKhschY8U9FDK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/C.png" alt="Logo do canal ">
+                <h3>Como seria ser IMORTAL?</h3>
+                <p>2,3 mil visualizações - Há 2 dias</p>
+            </div>
+        </li>
+    </ul>
+
+  
+
+</body>
+
+</html>
